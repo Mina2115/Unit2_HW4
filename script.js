@@ -9,8 +9,8 @@ require([
          ********************/
 
     var imagePopupTemplate = { // autocastes as neww PopupTemplate ()
-      Title: "Data from {SensorName} satellite",
-     Content: "Rendered NDVI values: <b>{Raster.ServicePixelValue} </b>" +
+      title: "Data from {SensorName} satellite",
+     content: "Rendered NDVI values: <b>{Raster.ServicePixelValue} </b>" +
             "<br>Original values (B1, B2, B3, B4, B5, B6, B7, B8, B9, B10, B11): <b>{Raster.ItemPixelValue} </b>"
         };
   /*******************************************************************
